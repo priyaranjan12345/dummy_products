@@ -25,7 +25,7 @@ class BottomBar extends StatelessWidget {
             buttonPadding: EdgeInsets.zero,
             children: [
               Text(
-                "₹ ${product.price}",
+                "Price: ₹ ${product.price}",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   color: Theme.of(context).colorScheme.secondary,
